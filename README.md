@@ -27,7 +27,7 @@ flowchart LR
         G6[Menghitung parameter estimasi]
     end
     
-    F --> Pemodelan Spasio-Temporal
+    i --> Pemodelan Spasio-Temporal
     Pemodelan Spasio-Temporal --> GTWNN
     GTWNN --> J[Membandingkan Model GTWR dengan GTWNN dan Regresi Global]
     J --> K[Visualisasi dan Penarikan Kesimpulan]
